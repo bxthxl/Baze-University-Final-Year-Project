@@ -1,66 +1,112 @@
+# AI-Enhanced CCTV Surveillance System
+### Facial Recognition System using Python and OpenCV
+
 ![Python](https://img.shields.io/badge/Python-AI%20Project-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
 ![Status](https://img.shields.io/badge/status-academic%20project-orange)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-# Baze University Final Year Project
-## AI-Enhanced Online Examination Proctoring System
+This repository contains the implementation of an **AI-powered facial recognition surveillance system** developed as part of my **BSc Computer Science project at Baze University**.
 
-This repository contains the implementation of my **BSc Computer Science final year project at Baze University**.
-
-The project explores the use of **Artificial Intelligence and Computer Vision** to enhance the security and integrity of online examinations by integrating facial recognition and monitoring capabilities into a digital proctoring system.
+The system uses **computer vision and machine learning techniques** to detect human faces in real time and recognize known identities using trained facial datasets.
 
 ---
 
 ## Project Overview
 
-Online examinations present significant challenges related to **identity verification and cheating prevention**. Traditional proctoring methods are difficult to scale and can be unreliable in remote environments.
+Modern surveillance systems are increasingly integrating **Artificial Intelligence** to improve monitoring, identity verification, and security.
 
-This project introduces an **AI-assisted proctoring system** capable of:
+This project demonstrates how **computer vision and machine learning** can be used to build a facial recognition system capable of:
 
-- Detecting faces in real time
-- Capturing facial datasets
-- Training a recognition model
-- Verifying student identity during examination sessions
+- Detecting human faces from a live camera feed  
+- Capturing facial datasets for training  
+- Training a recognition model  
+- Recognizing known individuals in real time  
 
-The system demonstrates how computer vision can support **secure digital assessments** in educational institutions.
+The system simulates how **AI-enhanced CCTV surveillance** can be implemented in environments such as offices, campuses, and secure facilities.
 
 ---
 
 ## Key Features
 
-- Face detection using Haar Cascade classifiers
-- Facial dataset generation for identity training
-- Facial recognition for identity verification
-- Local training pipeline for recognition models
-- Graphical interface for interacting with the system
+- Real-time face detection using OpenCV  
+- Facial dataset collection for training  
+- Face recognition using trained models  
+- Identity verification  
+- Simple graphical interface for interaction  
 
 ---
+
+## Project Structure
+
+```
+Baze-University-Final-Year-Project
+│
+├── dataset_creator.py      # Captures facial datasets from the camera
+├── detector.py             # Handles real-time face detection
+├── trainer.py              # Trains the facial recognition model
+├── gui.py                  # Graphical user interface
+├── main.py                 # Main application entry point
+│
+├── data/                   # Captured training image datasets
+├── recognizer/             # Trained recognition models
+└── unknown/                # Images not recognized by the system
+```
+
+---
+
 ## Technologies Used
 
-- **Python**
-- **OpenCV**
-- **Computer Vision**
-- **Machine Learning (Face Recognition)**
-- **Haar Cascade Classifiers**
+- Python  
+- OpenCV  
+- Computer Vision  
+- Machine Learning  
+- Haar Cascade Classifiers  
 
 ---
 
 ## Installation
 
 Clone the repository:
+
+```bash
 git clone https://github.com/bxthxl/Baze-University-Final-Year-Project.git
+```
 
-Navigate into the project folder:
+Navigate into the project directory:
+
+```bash
 cd Baze-University-Final-Year-Project
+```
 
-Install required dependencies:
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
 Run the application:
+
+```bash
 python main.py
+```
 
-Academic Context
+---
 
-This project was developed as part of the BSc Computer Science program at Baze University, Abuja.
+## Future Improvements
 
-The objective was to explore how AI-driven surveillance and recognition systems can support secure digital examination environments.
+- Deep learning–based facial recognition models  
+- Integration with CCTV camera systems  
+- Web dashboard for monitoring  
+- Cloud-based identity database  
+
+---
+
+## Author
+
+**Bethel Eberechukwu George-Nwaeke**
+
+Computer Scientist  
+Software Developer | AI Systems Enthusiast  
+
+GitHub: https://github.com/bxthxl
