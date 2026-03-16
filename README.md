@@ -38,16 +38,16 @@ The system demonstrates how computer vision can support **secure digital assessm
 
 ## Project Structure
 Baze-University-Final-Year-Project
-  ─ dataset_creator.py # Captures and stores facial datasets
-  ─ detector.py # Handles face detection logic
-  ─ trainer.py # Trains the facial recognition model
-  ─ gui.py # Graphical user interface
-  ─ main.py # Entry point for the application
-  ─ data/ # Training image datasets
-  ─ recognizer/ # Trained recognition models
-  ─ unknown/ # Images not recognized by the system
----
-
+│
+├── dataset_creator.py # Captures and stores facial datasets
+├── detector.py # Handles face detection logic
+├── trainer.py # Trains the facial recognition model
+├── gui.py # Graphical user interface
+├── main.py # Entry point for the application
+│
+├── data/ # Training image datasets
+├── recognizer/ # Trained recognition models
+└── unknown/ # Images not recognized by the system
 ## Technologies Used
 
 - **Python**
